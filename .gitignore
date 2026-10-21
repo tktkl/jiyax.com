@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+dist/
+deploy/backups/
+deploy/*.png
+deploy/*.jpg
+deploy/exported-preview.html
+deploy/site.tar.gz
