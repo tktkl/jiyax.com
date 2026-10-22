@@ -1,10 +1,9 @@
 <h1 align="center">JIYAX · 无际涯</h1>
 
-<p align="center"><strong>想得更远。探索无界。</strong></p>
+<p align="center"><strong>世界无际<br>探索无涯</strong></p>
 
 <p align="center">
-  AI 代订阅协助 · VPS 推荐 · 加密货币资讯 · SIM / eSIM 海外号码。<br>
-  用好 AI，构建自己的服务，探索更灵活的数字生活。
+  帮你订阅 AI、挑选 VPS，了解加密货币，找到适合自己的海外号码。
 </p>
 
 <p align="center">

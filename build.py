@@ -59,15 +59,15 @@ script = script[:start] + """      const save = () => {
 start = script.index("      const restore = saved => {")
 script = script[:start] + "      renderLanguage();\n    })();\n"
 script = script.replace("viewport:'JIYAX 可滚动网站预览'", "viewport:'JIYAX — 无际涯'")
-script = script.replace("viewport:'JIYAX scrollable website preview'", "viewport:'JIYAX — Think further. Go beyond.'")
+script = script.replace("viewport:'JIYAX scrollable website preview'", "viewport:'JIYAX — A boundless world · Endless discovery'")
 script = script.replace("detailPreview:'内容结构预览 · 子站域名为规划'", "detailPreview:'栏目筹备中 · 即将上线'")
 script = script.replace("detailPreview:'Content preview · proposed subdomain'", "detailPreview:'Coming soon · a preview of this section'")
 script = script.replace("        viewport.lang=state.lang;", """        viewport.lang=state.lang;
         document.documentElement.lang=state.lang==='en'?'en':'zh-CN';
         document.title=state.lang==='en'?'JIYAX — AI, VPS, Crypto & SIM':'无际涯 JIYAX | AI 订阅、VPS、加密货币与海外号码';
         const description=state.lang==='en'
-          ?'Explore AI subscriptions, VPS recommendations, crypto and SIM & eSIM for long-term phone numbers with JIYAX. Think further. Go beyond.'
-          :'无际涯 JIYAX：探索 ChatGPT、Claude AI 订阅、VPS 推荐、加密货币，以及长期使用的海外实体 SIM 与 eSIM。';
+          ?'Get help with AI subscriptions, find the right VPS, explore crypto, and choose an overseas SIM that suits you.'
+          :'无际涯 JIYAX：帮你订阅 AI、挑选 VPS，了解加密货币，找到适合自己的海外号码。';
         document.querySelector('meta[name="description"]').content=description;
         document.querySelector('meta[property="og:title"]').content=document.title;
         document.querySelector('meta[property="og:description"]').content=description;
@@ -88,7 +88,7 @@ head = f"""<!doctype html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>无际涯 JIYAX | AI 订阅、VPS、加密货币与海外号码</title>
-  <meta name="description" content="无际涯 JIYAX：探索 ChatGPT、Claude AI 订阅、VPS 推荐、加密货币，以及长期使用的海外实体 SIM 与 eSIM。">
+  <meta name="description" content="无际涯 JIYAX：帮你订阅 AI、挑选 VPS，了解加密货币，找到适合自己的海外号码。">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#f5f5f7">
   <link rel="canonical" href="https://jiyax.com/?lang=zh">
@@ -98,7 +98,7 @@ head = f"""<!doctype html>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="JIYAX · 无际涯">
   <meta property="og:title" content="无际涯 JIYAX | AI 订阅、VPS、加密货币与海外号码">
-  <meta property="og:description" content="AI 订阅、VPS 推荐、加密货币与 SIM / eSIM 海外号码。想得更远。探索无界。">
+  <meta property="og:description" content="无际涯 JIYAX：帮你订阅 AI、挑选 VPS，了解加密货币，找到适合自己的海外号码。">
   <meta property="og:url" content="https://jiyax.com/">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:image" content="https://jiyax.com{hero}">
@@ -106,7 +106,7 @@ head = f"""<!doctype html>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@jiyax_com">
   <meta name="twitter:title" content="JIYAX · 无际涯">
-  <meta name="twitter:description" content="AI subscriptions, VPS recommendations, crypto and SIM &amp; eSIM for long-term phone numbers. Think further. Go beyond.">
+  <meta name="twitter:description" content="Get help with AI subscriptions, find the right VPS, explore crypto, and choose an overseas SIM that suits you.">
   <meta name="twitter:image" content="https://jiyax.com{hero}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="{hero}" as="image" fetchpriority="high">
