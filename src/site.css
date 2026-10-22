@@ -34,6 +34,31 @@
 #jiyax-quiet .jx-social-link svg { width:18px; height:18px; flex-shrink:0; }
 #jiyax-quiet .jx-sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; border:0; }
 
+/* SIM 延续银灰色材质，用卡片轮廓和信号圆环呈现通信主题。 */
+#jiyax-quiet .jx-sim-art { position:relative; width:min(320px,100%); height:300px; display:grid; place-items:center; isolation:isolate; }
+#jiyax-quiet .jx-sim-orbit { position:absolute; border:1px solid light-dark(#cdd1d899,#777d8855); border-radius:50%; z-index:-1; }
+#jiyax-quiet .jx-sim-orbit-outer { width:96%; aspect-ratio:1; transform:rotate(-25deg) scaleY(.75); }
+#jiyax-quiet .jx-sim-orbit-inner { width:80%; aspect-ratio:1; transform:rotate(35deg) scaleY(.83); }
+#jiyax-quiet .jx-sim-card { position:relative; display:flex; flex-direction:column; align-items:flex-start; width:175px; height:236px; padding:25px 24px 21px; color:#373b44; background:linear-gradient(145deg,#fdfdff,#d5d8df 60%,#bfc4ce); border:1px solid #bfc5cf; border-radius:17px 45px 17px 17px; box-shadow:12px 20px 32px #00000012,inset 0 1px 1px #ffffff; transform:rotate(-10deg); }
+#jiyax-quiet .jx-sim-card::after { content:""; position:absolute; top:0; right:0; width:37px; height:37px; border-bottom:1px solid #aeb5c2; background:linear-gradient(135deg,#f4f5f8,#c3c8d1); border-radius:0 36px 0 9px; }
+#jiyax-quiet .jx-sim-brand { font-size:11px; font-weight:600; letter-spacing:.13em; color:#686f7c; }
+#jiyax-quiet .jx-sim-chip { display:grid; grid-template-columns:repeat(3,1fr); width:59px; height:46px; border:1px solid #939ca9; border-radius:9px; overflow:hidden; background:linear-gradient(145deg,#e2e5e9,#bec5cf); margin:24px 0 16px; }
+#jiyax-quiet .jx-sim-chip i { border-right:1px solid #9ea7b3; border-bottom:1px solid #9ea7b3; }
+#jiyax-quiet .jx-sim-chip i:nth-child(3n) { border-right:0; }
+#jiyax-quiet .jx-sim-chip i:nth-child(n+4) { border-bottom:0; }
+#jiyax-quiet .jx-sim-card-title { font-size:30px; font-weight:500; letter-spacing:-.055em; line-height:1.2; }
+#jiyax-quiet .jx-sim-card-title span { font-size:17px; font-weight:400; letter-spacing:-.04em; color:#737c8a; }
+#jiyax-quiet .jx-sim-card-note { margin-top:auto; font-size:9px; color:#6b7481; letter-spacing:.02em; }
+#jiyax-quiet .jx-sim-signal { position:absolute; right:18px; bottom:27px; display:flex; align-items:flex-end; gap:4px; height:43px; padding:11px 14px; border:1px solid light-dark(#d6d9e0,#4c4d54); border-radius:12px; background:light-dark(#fafafce8,#303035ed); box-shadow:0 8px 18px #0000000c; transform:rotate(7deg); }
+#jiyax-quiet .jx-sim-signal i { width:5px; background:light-dark(#8a93a1,#b6beca); border-radius:2px; height:6px; }
+#jiyax-quiet .jx-sim-signal i:nth-child(2) { height:10px; }
+#jiyax-quiet .jx-sim-signal i:nth-child(3) { height:15px; }
+#jiyax-quiet .jx-sim-signal i:nth-child(4) { height:20px; }
+#jiyax-quiet .jx-sim-glyph { width:100px; height:135px; }
+#jiyax-quiet .jx-detail-contact { margin:26px 0 32px; }
+#jiyax-quiet .jx-detail-contact p { color:var(--jx-muted); font-size:14px; line-height:1.8; max-width:620px; }
+#jiyax-quiet .jx-detail-contact .jx-entry { margin-top:16px; }
+
 /* 首屏使用整个视口作为画布，图像与背景自然融合。 */
 #jiyax-quiet .jx-hero {
   height:calc(100svh - var(--jx-header-height,60px));
@@ -96,10 +121,13 @@
     justify-content:center;
     width:100%;
     margin:0;
-    gap:28px;
+    gap:clamp(12px,4vw,24px);
     min-height:44px;
   }
   #jiyax-quiet .jx-top-links a { padding:0 4px; }
+  #jiyax-quiet .jx-sim-art { height:270px; }
+  #jiyax-quiet .jx-sim-orbit-outer { width:100%; }
+  #jiyax-quiet .jx-sim-signal { right:0; }
   #jiyax-quiet .jx-hero { min-height:480px; padding:28px 0 18px; }
   #jiyax-quiet .jx-hero-title { font-size:clamp(40px,11.5vw,47px); margin:4px auto 16px; }
   #jiyax-quiet .jx-hero-copy { max-width:340px; font-size:14px; line-height:1.7; }

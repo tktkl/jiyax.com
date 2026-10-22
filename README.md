@@ -3,7 +3,7 @@
 <p align="center"><strong>想得更远。探索无界。</strong></p>
 
 <p align="center">
-  ChatGPT、Claude 代订阅协助 · VPS 推荐 · 加密货币与 U 卡资讯。<br>
+  AI 代订阅协助 · VPS 推荐 · 加密货币资讯 · SIM / eSIM 海外号码。<br>
   用好 AI，构建自己的服务，探索更灵活的数字生活。
 </p>
 
@@ -51,7 +51,17 @@
 
 [了解 CRYPTO 加密货币 →](https://jiyax.com/?lang=zh#jx-life-chapter) · [交流你感兴趣的方向 ↗](https://t.me/jiyax_com)
 
-专题内容正在陆续完善，有具体需求，欢迎先联系沟通。
+## 04 / SIM / eSIM 海外号码
+
+**一个号码，连接更远。**
+
+海外实体 SIM 与 eSIM，面向长期持有号码的需求。了解资费、保号条件与短信通话能力，选择适合自己的号码。具体使用地区、功能和条件以商品说明为准。
+
+**适合你：** 希望长期持有海外号码，或正在比较实体 SIM 与 eSIM、月费与保号要求。
+
+[了解海外号码 →](https://jiyax.com/?lang=zh#jx-sim-chapter) · [提前咨询 ↗](https://t.me/jiyax_com)
+
+专题内容正在陆续完善，海外号码商城筹备中。有具体需求，欢迎先联系沟通。
 
 ---
 
@@ -61,12 +71,12 @@
 
 | 找到我 | 从这里开始 |
 | :--- | :--- |
-| **[Telegram · @jiyax_com ↗](https://t.me/jiyax_com)** | 私聊具体需求，咨询 AI 代订阅、VPS 选择，或交流你关心的问题。 |
+| **[Telegram · @jiyax_com ↗](https://t.me/jiyax_com)** | 私聊具体需求，咨询 AI 代订阅、VPS 选择、海外号码，或交流你关心的问题。 |
 | **[X · @jiyax_com ↗](https://x.com/jiyax_com)** | 关注动态、交流使用体验，分享建议与合作想法。 |
 
 不用先弄懂所有名词。告诉我你想用什么、拿来做什么；如果有预算或特别在意的地方，也可以一起说明。
 
 <p align="center">
   <strong><a href="https://jiyax.com/">进入 JIYAX，找到你的方向 →</a></strong><br>
-  <sub>AI 订阅 · VPS 基建 · CRYPTO 加密货币</sub>
+  <sub>AI 订阅 · VPS 基建 · CRYPTO 加密货币 · SIM / eSIM 海外号码</sub>
 </p>
